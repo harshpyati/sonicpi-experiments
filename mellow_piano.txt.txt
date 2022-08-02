@@ -1,0 +1,28 @@
+live_loop :first do
+  use_synth :dark_ambience
+  play :C, amp: 0.6
+  sleep 0.5
+  play :E, amp: 0.6
+  sleep 0.5
+end
+
+
+live_loop :second do
+  use_synth :piano
+  play :E, amp: 0.2
+  sleep 0.5
+  play :C, amp: 0.2
+  sleep 0.5
+end
+
+live_loop :third do
+  use_synth :subpulse
+  play :B, amp: 0.5
+  sleep 2
+  use_synth :blade
+  play :B, amp: 0.5
+  sleep 2
+  use_synth :zawa
+  play :B, amp: 0.5
+  sleep 2
+end
